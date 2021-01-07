@@ -1,7 +1,13 @@
 body {
   background-color: #1f1f25;
 }
-
+body {
+  background-color: #1f1f25;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
 #wrapper {
   max-width: 800px;
   margin: auto;
@@ -14,12 +20,12 @@ nav {
   gap: 0px 0px;
   grid-template-areas: ". . . . .";
   color: #ffffff;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 15px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   background-color: #17171c;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 #headerDiv {
   display: grid;
