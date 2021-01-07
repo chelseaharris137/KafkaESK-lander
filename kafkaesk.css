@@ -1,0 +1,127 @@
+body {
+  background-color: #1f1f25;
+}
+
+#wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content min-content min-content;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . . . .";
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  background-color: #17171c;
+}
+#headerDiv {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . .";
+  padding-top: 40px;
+}
+h2 {
+  color: #127858;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  padding-top: 50%;
+  font-weight: bold;
+}
+
+#logo {
+  background-image: url("./src/kafkaESK-largeIcon-darkgrey.gif");
+  background-repeat: no-repeat;
+  min-height: 370px;
+}
+#demo {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . . ";
+  padding-top: 100px;
+}
+h3 {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Raleway", sans-serif;
+  padding-left: 8px;
+  font-weight: normal;
+}
+h4 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+#features {
+  display: grid;
+  grid-template-columns: 10% 40% 10% 40%;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . . . ";
+  padding-top: 100px;
+}
+
+.feature-title {
+  color: #9aa856;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+.feature-desc {
+  font-size: 16px;
+  line-height: 20px;
+  color: #9c9c9c;
+  font-weight: normal;
+  font-family: "Raleway", sans-serif;
+}
+#team-row1 {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . .";
+  padding-top: 100px;
+}
+#team-row2 {
+  display: grid;
+  grid-template-columns: 10% 40% 40fr 10fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . ."
+    ". . . .";
+  padding-bottom: 100px;
+}
+h5 {
+  color: #9aa856;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+footer {
+  background-color: #17171c;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
