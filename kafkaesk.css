@@ -131,3 +131,8 @@ footer {
   padding-left: 20px;
   padding-top: 20px;
 }
+@media only screen and (max-device-width: 480px) {
+  .demo {
+    width: 300px;
+  }
+}
